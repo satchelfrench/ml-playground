@@ -1,6 +1,6 @@
-FROM debian:latest
+FROM nvidia/cuda:10.1-cudnn7-runtime-ubuntu16.04
 
-ARG PYTHON_VERSION=3.7
+ARG PYTHON_VERSION=3.6.9
 
 # configurations for conda dependencies, and jupyter notebook respectively
 COPY ./env/environment.yml /

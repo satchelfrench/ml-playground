@@ -27,6 +27,7 @@ dependencies:
   - fastai
   - tensorflow-gpu
   - nltk
+  - ipywidgets
  
 
  
