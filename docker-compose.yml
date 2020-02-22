@@ -1,0 +1,13 @@
+version: '3.2'
+services:
+  notebook:
+    build: .
+    image: "satchel/dl-playground:latest"
+    ports:
+      - "4000:4000"
+    volumes:
+      - "~:/playground"
+    container_name: "playground" 
+
+# suggestion: restric volumes to development directory rather than ~ home folder
+# i.e ~/dev:/playground

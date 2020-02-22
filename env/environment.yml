@@ -1,0 +1,32 @@
+name: base                                                                   
+channels:                                                                    
+  - defaults  
+  - pytorch
+  - conda-forge    
+  - fastai                                                          
+dependencies:
+  - magma-cuda100
+  - jupyterlab
+  - scikit-learn 
+  - opencv
+  - numpy
+  - matplotlib                                                              
+  - pandas
+  - pyodbc
+  - pyyaml
+  - scipy
+  - ipython
+  - mkl
+  - mkl-include
+  - ninja
+  - cython
+  - typing
+  - cudatoolkit=10.1
+  - pytorch>=1.4.0
+  - torchvision>=0.5.0
+  - fastai
+  - tensorflow-gpu
+  - nltk
+ 
+
+ 
